@@ -1,0 +1,58 @@
+#home-page .container header {
+    display: flex;
+    width: 40%;
+    text-align: center;
+    justify-content: space-between;
+    margin: 81px 0 20px;
+}
+#home-page .container header .admin {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#home-page .container header strong {
+    font-size: 12px;
+}
+#home-page .container header img {
+    width: 40px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#home-page .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#home-page .container form {
+    width: 40%;
+    margin-bottom: 20px;
+}
+#home-page .container input {
+    width: 100%;
+    padding: 12px 24px;
+
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+#home-page .container button {
+    margin: 10px 0px;
+    padding: 10px 20px;
+
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+
+    background-color: var(--primary);
+
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
+}
+#home-page .container button:hover {
+    box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.25);
+}
+
+#home-page .container .cards {
+    width: 40%;
+}
